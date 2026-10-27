@@ -2,7 +2,7 @@
 
 Statistical analysis evaluating clinical predictors of survival in advanced lung cancer patients (n=228) using R dataset:`survival::lung`.
 
-## 🛠️ tools & Methods
+## 🛠️ Tools & Methods
 - **Language:** R (`survival`, `survminer`, `tidyverse`, `mice`, `flextable`, `ggthemes`)
 - **Methods:** Kaplan-Meier curves, Log-Rank test, Cox Proportional Hazards regression, Model selection (BIC, ANOVA, Concordance Index),
 Schoenfeld residual testing.
@@ -23,3 +23,8 @@ Schoenfeld residual testing.
 - **ECOG Status 2:** HR = 3.81 (p < 0.001) $\rightarrow$ **281% higher risk of death**
 - **Non-significant:** Age, Karnofsky scores, and Weight Loss (p > 0.05).
 - **Model Fit:** Model 3 (Sex + ECOG) is optimal (C-index = 0.645) and meets proportional hazards assumptions (p > 0.05).
+
+---
+
+## 📝 Conclusion
+Patient survival is mainly driven by sex and physical status (ECOG) rather than age or weight loss. The final model is statistically solid, passes the proportional hazards test, and clearly shows the survival advantage for women.
