@@ -1,6 +1,6 @@
 # 🫁 Lung Cancer Survival Analysis
 
-Statistical analysis evaluating clinical predictors of survival in advanced lung cancer patients (n=228) using R dataset:`survival::lung`.
+A biostatistical analysis evaluating clinical predictors of survival in advanced lung cancer patients (n=228) using R dataset:`survival::lung`.
 
 ## 🛠️ Tools & Methods
 - **Language:** R (`survival`, `survminer`, `tidyverse`, `mice`, `flextable`, `ggthemes`)
